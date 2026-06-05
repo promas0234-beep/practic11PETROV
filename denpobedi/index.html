@@ -1,0 +1,370 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>День Победы</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/style/style.css">
+</head>
+<body>
+    <!-- Меню -->
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+        <div class="container-fluid p-3">
+            <a class="navbar-brand d-block d-lg-none" href="index.html">День Победы</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#header-nav" aria-controls="header-nav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-md-center fs-5" id="header-nav">
+                <div class="navbar-nav">
+                    <a class="nav-link me-4" href="index.html">Главная</a>
+                    <a class="nav-link me-4" href="index.html#history">История</a>
+                    <a class="nav-link me-4" href="index.html#hero">Герой моей семьи</a>
+                    <a class="nav-link" href="hero-city.html">Города-герои</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Баннер -->
+    <section class="banner">
+        <div class="content w-100">
+            <h1>ДЕНЬ ПОБЕДЫ</h1>
+            <h2>1941 - 1945</h2>
+        </div>
+    </section>
+
+    <main>
+        <!-- История -->
+        <div class="history p-5 text-center" id="history">
+            <h2 class="display-5">
+                Победа в <span class="select">Великой Отечественной войне</span> – <br> героический подвиг народа.
+            </h2>
+            <h2 class="display-5">
+                День Победы мы отмечаем как главный праздник страны.
+            </h2>
+            <h2 class="display-5">
+                <span class="select">Вечная память</span> павшим в боях! <br> Слава победителям!
+            </h2>
+        </div>
+
+        <!-- Карусель -->
+        <div id="carousel" class="carousel slide" data-bs-theme="dark">
+            <div class="carousel-inner">
+                <!-- Слайд 1 -->
+                <div class="carousel-item active" data-bs-interval="3000">
+                    <img src="assets/media/carousel/battle-for-Moscow.jpg" class="d-block w-100" alt="Битва за Москву">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1941</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Оборона Москвы занимает особое место в истории Великой Отечественной - от результата битвы за столицу СССР зависел весь дальнейший ход войны.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Оборона столицы</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Битва за Москву</h5>
+                    </div>
+                </div>
+                
+                <!-- Слайд 2 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/battle-for-the-Caucasus.jpg" class="d-block w-100" alt="Битва за Кавказ">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1942-1943</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Битва за Кавказ имела огромное стратегическое значение - здесь решалась судьба нефтяных районов страны.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Южный фронт</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Битва за Кавказ</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 3 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/battle-of-Kursk.jpg" class="d-block w-100" alt="Курская битва">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1943</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Курская битва стала последним крупным наступлением вермахта на Восточном фронте и завершилась полной победой Красной Армии.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Коренной перелом</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Курская битва</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 4 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/battle-of-Rzhev.jpg" class="d-block w-100" alt="Ржевская битва">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1942-1943</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Ржевская битва - одна из самых кровопролитных сражений войны, где советские войска сковали значительные силы противника.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Ржевский выступ</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Ржевская битва</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 5 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/battle-of-Stalingrad.jpg" class="d-block w-100" alt="Сталинградская битва">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1942-1943</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Сталинградская битва стала коренным переломом в ходе Великой Отечественной войны.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Коренной перелом</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Сталинградская битва</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 6 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/battle-of-the-Dnieper.jpg" class="d-block w-100" alt="Битва за Днепр">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1943</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Битва за Днепр - одна из крупнейших военных операций, в ходе которой была освобождена Левобережная Украина.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Освобождение Украины</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Битва за Днепр</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 7 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/defense-of-Leningrad.jpg" class="d-block w-100" alt="Оборона Ленинграда">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1941-1944</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">900 дней длилась блокада Ленинграда. Город выстоял благодаря мужеству его жителей и защитников.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Блокада</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Оборона Ленинграда</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 8 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/defense-of-Sevastopol.jpg" class="d-block w-100" alt="Оборона Севастополя">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1941-1942</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">250 дней героической обороны Севастополя сковали значительные силы противника.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Героическая оборона</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Оборона Севастополя</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 9 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/finland.jpg" class="d-block w-100" alt="Советско-финская война">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1939-1940</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Советско-финская война укрепила северо-западные границы СССР накануне Великой Отечественной.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Зимняя война</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Советско-финская война</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 10 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/liberation-of-Crimea.jpg" class="d-block w-100" alt="Освобождение Крыма">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1944</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Крымская наступательная операция завершилась полным освобождением Крыма от фашистских захватчиков.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Освобождение</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Освобождение Крыма</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 11 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/liberation-of-Hungary.jpg" class="d-block w-100" alt="Освобождение Венгрии">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1944-1945</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Будапештская операция - освобождение Венгрии от фашистской оккупации.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Венгрия</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Освобождение Венгрии</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 12 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/liberation-of-Poland.jpg" class="d-block w-100" alt="Освобождение Польши">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1944-1945</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Висло-Одерская операция - освобождение Польши и выход к границам Германии.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Польша</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Освобождение Польши</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 13 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/liberation-of-Right-Bank-Ukraine.jpg" class="d-block w-100" alt="Освобождение Правобережной Украины">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1944</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Днепровско-Карпатская операция - полное освобождение Правобережной Украины.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Украина</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Освобождение Правобережной Украины</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 14 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/liberation-of-Romania.jpg" class="d-block w-100" alt="Освобождение Румынии">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1944</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Ясско-Кишиневская операция - освобождение Румынии и выход к Балканам.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Румыния</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Освобождение Румынии</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 15 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/liberation-of-the-Baltic.jpg" class="d-block w-100" alt="Освобождение Прибалтики">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1944</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Прибалтийская операция - освобождение Литвы, Латвии и Эстонии.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Прибалтика</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Освобождение Прибалтики</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 16 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/operation-Bagration.jpg" class="d-block w-100" alt="Операция Багратион">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1944</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Операция «Багратион» - одна из крупнейших военных операций, в результате которой была освобождена Белоруссия.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Белоруссия</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Операция «Багратион»</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 17 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/results-of-the-war.jpg" class="d-block w-100" alt="Итоги войны">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1945</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">9 мая 1945 года - День Победы! Великая Отечественная война завершилась полной победой советского народа.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Победа!</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Итоги войны</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 18 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/second-front.jpg" class="d-block w-100" alt="Второй фронт">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1944</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Открытие второго фронта в Нормандии ускорило разгром фашистской Германии.</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Нормандия</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Открытие второго фронта</h5>
+                    </div>
+                </div>
+
+                <!-- Слайд 19 -->
+                <div class="carousel-item" data-bs-interval="3000">
+                    <img src="assets/media/carousel/storming-Berlin.jpg" class="d-block w-100" alt="Штурм Берлина">
+                    <div class="carousel-caption text-start">
+                        <h4 class="display-3 carousel-date">1945</h4>
+                        <p class="carousel-text p-2 d-none d-lg-block">Штурм Берлина - завершающая битва Великой Отечественной войны. Знамя Победы над Рейхстагом!</p>
+                        <h5 class="carousel-note d-none d-sm-inline-block text-uppercase p-2 my-2">Берлин</h5>
+                        <br>
+                        <h5 class="display-4 fw-bold carousel-title p-2 my-2">Штурм Берлина</h5>
+                    </div>
+                </div>
+            </div>
+            
+            <button class="carousel-control-prev" type="button" data-bs-target="#carousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Назад</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#carousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Вперед</span>
+            </button>
+        </div>
+
+        <!-- Герой моей семьи -->
+        <section class="hero p-5" id="hero">
+            <h2 class="display-4 text-center pb-5">Нет в России семьи такой,<br> Где б не памятен был свой герой...</h2>
+            <div class="hero-info row d-flex justify-content-evenly">
+                <div class="col col-12 col-md-3 hero mb-3 text-center">
+                    <img src="assets/media/hero.jpg" alt="Фото героя" class="hero-photo img-fluid">
+                </div>
+                <div class="col col-12 col-md-8 hero-history px-5">
+                    <h2 class="hero-name display-3 p-1">Фамилия Имя Отчество</h2>
+                    <h3 class="hero-date display-4 p-1">1909-1945</h3>
+                    <p class="fs-3">Разместите здесь информацию о герое Вашей семьи, вашего учебного заведения или вашего города.</p>
+                    <p class="fs-3">Расскажите историю Вашего деда, прадеда, бабушки и прочих родных - ветерана армии и флота, партизана, подпольщика, бойца Сопротивления, труженика тыла, узника концлагеря, блокадника, ребенка войны.</p>
+                    <p class="fs-3"><span class="select">Никто не забыт! Ничто не забыто!</span></p>
+                </div>
+            </div>
+        </section>
+
+        <!-- Города-Герои (превью) -->
+        <section class="hero-city p-5 bg-body-tertiary" id="hero-city">
+            <h2 class="display-4 text-center pb-5">Города-герои</h2>
+            <p class="fs-3">Когда в июне 1941 года фашистская Германия обрушила на нашу страну всю мощь своих армий, на их пути <span class="select">могучими бастионами</span> встали советские города. Кровопролитная борьба шла буквально за каждую пядь земли на подступах к ним, за каждый квартал и за каждый дом.</p>
+            <p class="fs-3 pb-5">Особо отличившимся городам за массово проявленные <span class="select">мужество и героизм</span> их защитников впоследствии было присвоено высшее звание <span class="select">«Город-герой».</span></p>
+            
+            <div class="cards d-flex justify-content-evenly row row-cols-1 row-cols-md-3 g-4">
+                <!-- Москва -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/media/hero-city/moskow.jpg" class="card-img-top" alt="Москва">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Москва</h5>
+                            <p class="card-text">В агрессивных планах фашистской Германии захват Москвы имел первостепенное значение, так как именно с падением столицы связывалась полная победа немецких войск над СССР.</p>
+                            <a href="https://may9.ru/victory/heroic-cities/moskva/" target="_blank" class="btn stretched-link">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Ленинград -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/media/hero-city/leningrad.jpg" class="card-img-top" alt="Ленинград">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Ленинград</h5>
+                            <p class="card-text">Ленинград был особым городом для Советского Союза, поэтому в планах гитлеровского командования было полное уничтожение города и истребление его населения.</p>
+                            <a href="https://may9.ru/victory/heroic-cities/leningrad/" target="_blank" class="btn stretched-link">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Минск -->
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="assets/media/hero-city/minsk.jpg" class="card-img-top" alt="Минск">
+                        <div class="card-body">
+                            <h5 class="card-title fs-3">Минск</h5>
+                            <p class="card-text">Минск с первых дней Великой Отечественной войны оказался в самом центре трагедии. Городские части гарнизонной армии подпали в город 28 июня 1941 года.</p>
+                            <a href="https://may9.ru/victory/heroic-cities/minsk/" target="_blank" class="btn stretched-link">Узнать больше</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="d-flex justify-content-end">
+                <a href="hero-city.html" class="btn fs-4 mt-3">Все города...</a>
+            </div>
+        </section>
+    </main>
+
+    <!-- Подвал -->
+    <footer class="footer text-center p-1">
+        <div class="content p-3">
+            <p>Проект подготовлен сообществом <a href="https://vk.com/pechora_pro" target="_blank">Pechora-PRO</a></p>
+            <p>При работе над проектом использовались материалы сайта <a href="https://may9.ru/" target="_blank">https://may9.ru/</a>, а также открытых источников сети Интернет.</p>
+        </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+</body>
+</html>
