@@ -68,6 +68,15 @@
     filter: brightness(1.2);
 }
 
+.carousel-item img {
+    filter: brightness(1.2) grayscale(100%);
+    transition: filter 0.6s ease;
+}
+
+.carousel-item img:hover {
+    filter: brightness(1.2) grayscale(0%);
+}
+
 .carousel-caption {
     padding-bottom: 15%;
 }
@@ -104,6 +113,12 @@
 /* Стили для блока "Герой моей семьи" */
 .hero-photo {
     width: 100%;
+    filter: grayscale(100%);
+    transition: filter 0.6s ease;
+}
+
+.hero-photo:hover {
+    filter: grayscale(0%);
 }
 
 .hero-name {
@@ -117,6 +132,17 @@
     display: inline-block;
     color: #ffffff;
     background-color: rgba(0, 0, 0, 0.9);
+}
+
+/* Стили для карточек городов-героев */
+.card-img-top {
+    filter: grayscale(100%);
+    transition: filter 0.6s ease, transform 0.6s ease;
+}
+
+.card-img-top:hover {
+    filter: grayscale(0%);
+    transform: scale(1.03);
 }
 
 /* Стили для подвала */
@@ -134,4 +160,16 @@
 .footer a:hover {
     color: #ffffff;
     background-color: #ff0000;
+}
+
+/* ЧЕРНО-БЕЛЫЕ КАРТИНКИ С ЭФФЕКТОМ */
+.card-img-top {
+    filter: grayscale(100%);
+    transition: filter 0.6s ease, transform 0.6s ease;
+}
+
+/* Наведение на ВСЮ карточку, а не на картинку! */
+.card:hover .card-img-top {
+    filter: grayscale(0%);
+    transform: scale(1.03);
 }
